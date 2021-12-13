@@ -32,7 +32,8 @@
     "@reactioncommerce/reaction-error": "^1.0.1",
     "envalid": "^6.0.1",
     "nock": "^13.1.0",
-    "stripe": "^8.167.0"
+    "stripe": "^8.167.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
@@ -64,7 +65,9 @@
     "lint:eslint": "eslint .",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
-    "test:file": "jest --no-cache --watch --coverage=false"
+    "test:file": "jest --no-cache --watch --coverage=false",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "commitlint": {
     "extends": [
@@ -86,5 +89,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
