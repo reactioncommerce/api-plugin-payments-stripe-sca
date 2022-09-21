@@ -1,3 +1,7 @@
+# This repository is deprecated
+
+This code is now located in our monorepo [here](https://github.com/reactioncommerce/reaction/tree/trunk/packages/api-plugin-payments-stripe-sca)
+
 # api-plugin-payments-stripe-sca
 
 [![npm (scoped)](https://img.shields.io/npm/v/@reactioncommerce/api-plugin-payments-stripe-sca.svg)](https://www.npmjs.com/package/@reactioncommerce/api-plugin-payments-stripe-sca)
